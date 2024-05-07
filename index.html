@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>FoodieFanatix Website</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/custom.css">
+        <link href="fontAwesome/css/all.css" rel="stylesheet">
+    </head>
+    <body onload="init()">
+        <div class="d-flex flex-column align-items-center p-3 bg-white border-bottom box-shadow fixed-top">
+            <img src="img/mini-blog-logo.png" height="40"/>
+            <nav>
+                <a id="getLatest" class="p-2 text-dark text-decoration-none" href="latest.html">Latest</a>
+                <a id="getAll" class="p-2 text-dark text-decoration-none active" href="index.html">All</a>
+                <a id="getPopular" class="p-2 text-dark text-decoration-none" href="popular.html">Popular</a>
+            </nav>
+        </div>
+
+        <div class="blog-header mx-auto text-center">
+            <h1>Is it Beautiful?</h1>
+            <p class="lead">All the latest <strong><em>Food</em></strong>, <strong><em>Beverages</em></strong> and 
+            <strong><em>Desserts</em></strong> from around the world.</p>
+        </div>
+
+        <div class="row container mx-auto">
+            <div class="column" id="posts">
+                Loading content...
+            </div>
+        </div>
+
+        <main>
+        <div class="container team">
+            <div class="row">
+                
+                <div class="col-lg-4">
+                    <img src="img/lilly0.jpg" class="img-thumbnail rounded-circle" width="160"/>
+                    <h2>Lilly</h2>
+                    <p><a href="#" class="btn btn-secondary" role="button">View details</a></p>
+                </div>
+
+                <div class="col-lg-4">
+                    <img src="img/claire0.jpg" class="img-thumbnail rounded-circle" width="160"/>
+                    <h2>Claiere The Blogger</h2>
+                    <p> Claire is a food blogger</p>
+                    <p><a href="#" class="btn btn-secondary" role="button">View details</a></p>
+                </div>
+
+                <div class="col-lg-4">
+                    <img src="img/daine.jpg" class="img-thumbnail rounded-circle" width="160"/>
+                    <h2>Daine</h2>
+                    <p><a href="#" class="btn btn-secondary" role="button">View details</a></p>
+                </div>
+            </div>
+        </div>
+
+
+        <hr class="section-divider"/>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h2 class="feature-heading">First featured item. <span class="text-muted">Burger & Chips</span></h2>
+                    <p class="lead">Very affordable and yummy meal, Burger and Chips make me think of New York</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/burger&chips.jpg" class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto"/>
+                </div>
+            </div>
+        </div>
+
+        <hr class="section-divider"/>
+        
+            <div class="row">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="feature-heading">Second featured item. <span class="text-muted">Deliciouse Steak</span></h2>
+                    <p class="lead">Best Steak I have had in a while giving this one a four out five </p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="img/steak.png" class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto"/>
+                </div>
+            </div>
+
+        <hr class="section-divider"/>
+        
+            <div class="row">
+                <div class="col-md-7">
+                    <h2 class="feature-heading">Third featured item. <span class="text-muted">Chicken & Rice Meal</span></h2>
+                    <p class="lead">Amazing, definatly recommend the Chicken & Rice I was Home Sick after eating this meal and I enjoyed to the end.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/rice&chicken.jpg" class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto"/>
+                </div>
+            </div>
+
+            <hr class="section-divider"/>
+        
+            <div class="row">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="feature-heading">Fourth featured item. <span class="text-muted">Spagetti</span></h2>
+                    <p class="lead">The time I orderd Spagetti I was craving chinese food the Spagatti could not top it so I'm giving it a two. </p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="img/chinese.jpg" class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto"/>
+                </div>
+            </div>
+
+        <hr class="section-divider"/>
+        
+            <div class="row">
+                <div class="col-md-7">
+                    <h2 class="feature-heading">Fifth featured item. <span class="text-muted">Mexican Drink</span></h2>
+                    <p class="lead">Never had one of these before but I didn't hate it, giving it five </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/mexicandrink.jpg" class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto"/>
+                </div>
+            </div>
+
+            <hr class="section-divider"/>
+        
+            <div class="row">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="feature-heading">Sixth featured item. <span class="text-muted">Wine</span></h2>
+                    <p class="lead">Really enjoyed the wine with my friends, but I suggest taking you're mate on a wine date .</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="img/wine.jpg" class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto"/>
+                </div>
+            </div>
+
+        <hr class="section-divider"/>
+        
+            <div class="row">
+                <div class="col-md-7">
+                    <h2 class="feature-heading">Seventh featured item. <span class="text-muted">Milkshake</span></h2>
+                    <p class="lead">The chocolate and Strawberry Milkshakes are my fav, I went with chocolate this time it was refreshing.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/chocmilkshake.jpg" class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto"/>
+                </div>
+            </div>
+
+            <hr class="section-divider"/>
+        
+            <div class="row">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="feature-heading">Eighth featured item. <span class="text-muted">Cookies</span></h2>
+                    <p class="lead">Cookies a bit too sweet but they were nice.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="img/cookie.jpg" class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto"/>
+                </div>
+            </div>
+
+        <hr class="section-divider"/>
+        
+            <div class="row">
+                <div class="col-md-7">
+                    <h2 class="feature-heading">Nineth featured item. <span class="text-muted">Cupcakes</span></h2>
+                    <p class="lead">Loved the minicakes and I love seeing different colours.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/cupcakes.jpg" class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto"/>
+                </div>
+            </div>
+
+            <hr class="section-divider"/>
+        
+            <div class="row">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="feature-heading">Last featured item. <span class="text-muted">Cakes</span></h2>
+                    <p class="lead">Recommend one of these cakes for birthday parties my faves are the carrot and velvet.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="img/cakes.jpg" class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto"/>
+                </div>
+            </div>
+
+            <hr class="section-divider"/>
+
+            <footer class="container footer-section">
+                <p class="flout-right"><a href="#">Back to top</a></p>
+                <p>&copy; 2017-2019 Company, Inc. &middot; <a href="#">Privacy</a>&middot; <a href="#">Terms</a></p>
+            </footer>
+    </main>
+
+
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        
+    </body>
+</html>

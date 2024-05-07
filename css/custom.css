@@ -1,0 +1,100 @@
+html {
+  font-size: 14px;
+}
+
+body{
+  background-color: rgb(224, 162, 248);
+}
+
+a:hover{
+  background-color: rgb(233, 196, 255);
+}
+
+.team .col-lg-4 {
+  padding-top: 3rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .feature-heading {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 540px) {
+    .carouselImg {
+        display: none;
+    }
+    
+    .team {
+        margin-top: 2rem;
+    }
+}
+
+
+.section-divider{ 
+  margin: 3rem 0;
+}
+
+.footer-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+nav{
+  font-family:sans-serif;
+}
+
+.blog-header {
+  margin-top: 7rem;
+  max-width: 700px;
+}
+
+@media (max-width: 768px) {
+  .blog-header{
+    margin-top: 8rem;
+  }
+}
+
+.container {
+  max-width: 96opx;
+}
+
+.team {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin-bottom: 2rem;
+}
+
+.card-deck .card{
+  min-width: 220px;
+}
+
+.card-text{
+  padding-top: 1rem;
+}
+
+.card-block{
+  min-height: 220px;
+}
+
+.active {
+  border-bottom: 1px solid black;
+}
+
+h1{
+  font-style:italic;
+}
+
+.lead{
+  font-style:italic;
+}
